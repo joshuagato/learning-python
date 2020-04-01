@@ -30,7 +30,7 @@ print(another_even is even)
 print(another_even == even)
 
 print()
-print("################################################################################################")
+print("#" * 100)
 print()
 
 # However, here, a new list is created by invoking the list constructor list()
@@ -48,7 +48,7 @@ print(another_even2 is even2)   # checks for equality of the memory location
 print(another_even2 == even2)   # checks for equality of the content
 
 print()
-print("################################################################################################")
+print("#" * 100)
 print()
 
 even = [2, 4, 6, 8, 10]
@@ -66,7 +66,7 @@ for numbers_set in numbers:
         print(value)
 
 print()
-print("################################################################################################")
+print("#" * 100)
 print()
 
 menu = []
@@ -104,7 +104,7 @@ print(next(my_iterator))
 # we have ab error
 
 print()
-print("################################################################################################")
+print("#" * 100)
 print()
 
 string = "1234567890"
@@ -120,5 +120,5 @@ for char in iter(string):
 print()
 
 print()
-print("################################################################################################")
+print("#" * 100)
 print()
